@@ -7,20 +7,30 @@ Bus Transportation Management System
 
 Project Descriptions:   
 This project will mainly foucus on manging the inflow and organization of data of individuals and locations.\
-Individuals traveling on coach buses will have their location taken in and will be arranged  by alphabetical order. 
+Individuals traveling on coach buses will have their location taken in.
 
 Summary:  
 I am building a managmenet system where individual are given random   location stop point so the conductor has an overview of where to stop for those certain individual. I made a list of the stops with import   random helping assigning individuals city stops. Next I will be integrating Stack and Queue exclusivly for individual queueing in as well as reomve those who've been drop off at their final destination.
 
 Report:  
 Intitive - Random was implied for randomizing stops to each individual, which ranges from//
-stop 1 to 5. The amount of individual will be soley base on the capacity of the bus, which in this case is up to 60 spots to be occupide. 
+stop 1 to 5. The amount of individual will be soley base on the capacity of the bus, which in this case is up to 60 spots to be occupide. Not only will it 
 
 
 Implemeation of stacks will ensure that: 
-1) Stops are gathered in inputted into the stack 
-2) Will be aliged to the specific indivdual 
-3) 
+1) Stops will be push into the stack
+2) Stops will be pop in reverse order, to simulate the stopping of the bus at each loaction 
+3) Simultaneously, it will be cheking on the status of the list 
+
+Implementation of Queue will ensure that: 
+1) Individuals will ben enqueue into the queue when they are assigned a stop 
+2) Individuals will be dequeue form the queue when they board the bus or get off at their stop
+3) Simutlaneously check on the status of the list
+
+Implemetation of an Array for both Stack and Queue: 
+1) Will store the list of stops 
+2) Internal storage for both stack and queue
+
 
 
 

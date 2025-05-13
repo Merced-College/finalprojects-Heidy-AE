@@ -27,6 +27,7 @@ public class Queue{
             System.out.println("Queue is empty");
             return null;
         }
+        //check if the queue is empty
         String element = elements[front]; //get the element at the front of the queue
         front = (front + 1) % capacity; //increment the front of the queue
         size--; //decrement the size of the queue
